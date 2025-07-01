@@ -4,6 +4,7 @@ main {
     display: flex;
     justify-content: center;
     padding: 25px;
+    
 }
 section {
     background-color: var(--background-color);
@@ -12,13 +13,14 @@ section {
     justify-content: center;
     flex-wrap: wrap;
     gap: 10px;
-    max-width: 1100px;
+    max-width: 1200px;
+    
     
 }
 
 section img{
-    max-width: 227px;
-    max-height: 227px;
+    max-width: 286px;
+    max-height: 286px;
     border-radius: 3px;
 }
 

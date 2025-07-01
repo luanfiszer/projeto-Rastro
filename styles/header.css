@@ -4,16 +4,19 @@ header {
     background-color: var(--skeleton-color);
     display: flex;
     justify-content: center;
+    
+
 }
 
 .header {
-    
-    padding: 25px;
     width: 1100px;
-    height: 240px;
+    min-height: 240px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between ;
+    justify-content: center ;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 200px;
 }
 
 .esquerda {
@@ -21,6 +24,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     min-width: 435px;
+    align-items: center;
     
 }
 
@@ -40,6 +44,8 @@ aside {
     flex-direction: column;
     justify-content: center;
     align-items: start;
+    margin-left: 10px;
+
 }
 
 aside a {
@@ -55,4 +61,8 @@ aside div {
     display: flex;
     flex-direction: row;
     gap: 5px;
+}
+
+div.foto-perfil img {
+    scale: 0.8;
 }
