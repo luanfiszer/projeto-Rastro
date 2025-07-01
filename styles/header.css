@@ -9,7 +9,7 @@ header {
 .header {
     
     padding: 25px;
-    width: 1280px;
+    width: 1100px;
     height: 240px;
     display: flex;
     flex-direction: row;
@@ -20,11 +20,12 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    min-width: 435px;
     
 }
 
 header p {
-    font-size: 13px;
+    font-size: 12px;
     max-width: 500px;
 }
 
@@ -35,12 +36,16 @@ header p {
 }
 
 aside {
-    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
 }
 
 aside a {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     text-decoration: none;
     color: var(--text-color-secondary);
     
