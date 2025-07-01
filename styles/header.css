@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+header {
+    background-color: var(--skeleton-color);
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    
+    padding: 25px;
+    width: 1280px;
+    height: 240px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+}
+
+.esquerda {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+header p {
+    font-size: 13px;
+    max-width: 500px;
+}
+
+.descriçao {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px;
+}
+
+aside {
+    margin: 50px;
+}
+
+aside a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: var(--text-color-secondary);
+    
+}
+
+aside div {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}

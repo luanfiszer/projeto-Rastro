@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+    
+}
+
+footer div.Termos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 30px;
+}
+
+.copy {
+    margin: 0px 80px;
+}
